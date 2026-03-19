@@ -196,7 +196,7 @@ const Support = () => {
             </p>
             <p className='mt-3'>
               <Link
-                href='https://github.com/diragb/slop-muter-extension/issues/new'
+                href='https://github.com/diragb/slopmuter-extension/issues/new'
                 target='_blank'
                 className='font-medium text-neutral-950 underline decoration-neutral-300 underline-offset-2 transition-colors hover:decoration-neutral-950'
               >
@@ -236,11 +236,11 @@ const Support = () => {
               <li className='list-disc'>
                 <strong className='text-neutral-950'>GitHub Issues</strong> —{' '}
                 <Link
-                  href='https://github.com/diragb/slop-muter-extension/issues'
+                  href='https://github.com/diragb/slopmuter-extension/issues'
                   target='_blank'
                   className='font-medium text-neutral-950 underline decoration-neutral-300 underline-offset-2 transition-colors hover:decoration-neutral-950'
                 >
-                  github.com/diragb/slop-muter-extension/issues
+                  github.com/diragb/slopmuter-extension/issues
                 </Link>
               </li>
               <li className='list-disc'>

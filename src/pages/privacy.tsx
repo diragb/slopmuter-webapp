@@ -143,7 +143,7 @@ const Privacy = () => {
               SlopMuter is fully open source. You can audit the extension code, the blocklists,
               and the blocklist criteria at any time on{' '}
               <Link
-                href='https://github.com/diragb/slop-muter-extension'
+                href='https://github.com/diragb/slopmuter-extension'
                 target='_blank'
                 className='font-medium text-neutral-950 underline decoration-neutral-300 underline-offset-2 transition-colors hover:decoration-neutral-950'
               >
@@ -169,7 +169,7 @@ const Privacy = () => {
               </Link>{' '}
               or open an issue on{' '}
               <Link
-                href='https://github.com/diragb/slop-muter-extension'
+                href='https://github.com/diragb/slopmuter-extension'
                 target='_blank'
                 className='font-medium text-neutral-950 underline decoration-neutral-300 underline-offset-2 transition-colors hover:decoration-neutral-950'
               >

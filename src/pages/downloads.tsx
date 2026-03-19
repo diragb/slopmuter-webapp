@@ -130,7 +130,7 @@ const Downloads = () => {
         <p className='mt-10 text-center text-sm text-neutral-400'>
           SlopMuter is{' '}
           <Link
-            href='https://github.com/diragb/slop-muter-extension'
+            href='https://github.com/diragb/slopmuter-extension'
             target='_blank'
             className='font-medium text-neutral-950 underline decoration-neutral-300 underline-offset-2 transition-colors hover:decoration-neutral-950'
           >

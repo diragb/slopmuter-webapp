@@ -88,7 +88,7 @@ const Navbar = () => {
                 Support
               </Link>
               <Link
-                href='https://github.com/diragb/slop-muter-extension'
+                href='https://github.com/diragb/slopmuter-extension'
                 target='_blank'
                 className='inline-flex items-center gap-1.5 rounded-md px-3 py-1.5 text-sm font-medium text-neutral-600 transition-colors hover:bg-neutral-100 hover:text-neutral-950'
               >
@@ -179,7 +179,7 @@ const Navbar = () => {
             Support
           </Link>
           <Link
-            href='https://github.com/diragb/slop-muter-extension'
+            href='https://github.com/diragb/slopmuter-extension'
             target='_blank'
             onClick={closeSidebar}
             className='flex items-center gap-2 rounded-lg px-3 py-2.5 text-sm font-medium text-neutral-700 transition-colors hover:bg-neutral-50 hover:text-neutral-950'

@@ -97,8 +97,8 @@ Install it. Pick your blocklists. Scroll in peace.
 
 **SlopMuter** — Mute the slop. Keep the signal.
 
-Website: [slopmuter.diragb.dev](https://slopmuter.diragb.dev)
+Website: [slopmuter.com](https://slopmuter.com)
 X/Twitter: [@slopmuter](https://x.com/slopmuter)
-GitHub: [github.com/diragb/slop-muter-extension](https://github.com/diragb/slop-muter-extension)
+GitHub: [github.com/diragb/slopmuter-extension](https://github.com/diragb/slopmuter-extension)
 Author: [Dirag Biswas](https://github.com/diragb)
 License: MIT

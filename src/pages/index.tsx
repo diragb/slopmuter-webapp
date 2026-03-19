@@ -76,7 +76,7 @@ const SlopMuter = () => {
               size='lg'
               className='rounded-full px-7 text-sm font-semibold'
             >
-              <Link href='https://github.com/diragb/slop-muter-extension' target='_blank'>
+              <Link href='https://github.com/diragb/slopmuter-extension' target='_blank'>
                 View on GitHub
               </Link>
             </Button>
@@ -171,7 +171,7 @@ const SlopMuter = () => {
             <Link href='https://x.com/slopmuter' target='_blank' className='transition-colors hover:text-neutral-600'>
               X/Twitter
             </Link>
-            <Link href='https://github.com/diragb/slop-muter-extension' target='_blank' className='transition-colors hover:text-neutral-600'>
+            <Link href='https://github.com/diragb/slopmuter-extension' target='_blank' className='transition-colors hover:text-neutral-600'>
               GitHub
             </Link>
           </div>

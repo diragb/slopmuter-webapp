@@ -3,6 +3,7 @@ import { useEffect, useRef } from 'react'
 import { useRouter } from 'next/router'
 import { useMutation } from '@tanstack/react-query'
 
+// Typescript:
 interface GoogleAuthResponse {
   accessToken: string
   refreshToken: string
@@ -14,6 +15,9 @@ interface GoogleAuthResponse {
     avatarUrl: string
   }
 }
+
+// Constants:
+import env from '@/config/env'
 
 // Functions:
 const AuthGoogleCallback = () => {
@@ -27,7 +31,7 @@ const AuthGoogleCallback = () => {
 
   // Functions:
   const authGoogleWithCode = async (input: { code: string; redirectUri: string }) => {
-    const response = await fetch('http://localhost:8080/v1/auth/google', {
+    const response = await fetch(`${env.backendUrl}/v1/auth/google`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -63,7 +67,15 @@ const AuthGoogleCallback = () => {
   }, [router.isReady, code, mutate])
 
   useEffect(() => {
-    if (data) console.log(data)
+    if (data) {
+      window.opener.postMessage(
+        {
+          type: 'auth_success',
+          payload: data,
+        },
+        env.extensionPageOrigin,
+      )
+    }
   }, [data])
 
   if (!router.isReady) {
